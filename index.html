@@ -1,27 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manuja Senanayake | Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional for CSS -->
-    <link href="./output.css" rel="stylesheet"> <!--tailwind-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1 class="text-3xl font-bold underline">Manuja Senanayake</h1>
-        <p>Welcome to my portfolio!</p>
+
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-gray-800 text-white p-6">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold">Manuja Senanayake</h1>
+            <p class="mt-2">Welcome to my portfolio!</p>
+        </div>
     </header>
-    <main>
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-            <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
-            <!-- Add more projects as needed -->
-        </ul>
+
+    <main class="container mx-auto p-6">
+        <section>
+            <h2 class="text-3xl font-semibold mt-8">Projects</h2>
+            <ul class="mt-4 space-y-4">
+                <li class="p-4 border rounded-lg bg-white shadow-md">
+                    <h3 class="text-xl font-bold">Project 1</h3>
+                    <p class="mt-2">A brief description of Project 1 goes here.</p>
+                    <a href="https://github.com/yourusername/project1" class="text-blue-500 hover:underline mt-2 inline-block">View on GitHub</a>
+                </li>
+                <li class="p-4 border rounded-lg bg-white shadow-md">
+                    <h3 class="text-xl font-bold">Project 2</h3>
+                    <p class="mt-2">A brief description of Project 2 goes here.</p>
+                    <a href="https://github.com/yourusername/project2" class="text-blue-500 hover:underline mt-2 inline-block">View on GitHub</a>
+                </li>
+                <!-- Add more projects as needed -->
+            </ul>
+        </section>
+
+        <section class="mt-10">
+            <h2 class="text-3xl font-semibold">About Me</h2>
+            <p class="mt-4">This section can include information about your background, skills, and interests.</p>
+        </section>
     </main>
-    <footer>
-        <p>Thanks for checking my page out!</p>
+
+    <footer class="bg-gray-800 text-white p-4 mt-10">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Manuja Senanayake. All rights reserved.</p>
+            <div class="mt-2">
+                <a href="https://linkedin.com/in/yourprofile" class="text-blue-400 hover:underline">LinkedIn</a> |
+                <a href="https://twitter.com/yourusername" class="text-blue-400 hover:underline">Twitter</a>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
